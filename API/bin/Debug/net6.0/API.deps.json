@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "API/1.0.0": {
+        "dependencies": {
+          "Data": "1.0.0",
+          "Data_Access_Layer": "1.0.0"
+        },
+        "runtime": {
+          "API.dll": {}
+        }
+      },
+      "Data/1.0.0": {
+        "runtime": {
+          "Data.dll": {}
+        }
+      },
+      "Data_Access_Layer/1.0.0": {
+        "runtime": {
+          "Data_Access_Layer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "API/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Data_Access_Layer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
